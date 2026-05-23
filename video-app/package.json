@@ -1,0 +1,44 @@
+{
+  "name": "video-app",
+  "version": "1.0.0",
+  "description": "AI Video Generator QA Harness mock video generation service",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts",
+    "test": "jest",
+    "test:video": "playwright test"
+  },
+  "keywords": [
+    "typescript",
+    "express",
+    "playwright",
+    "qa",
+    "ai",
+    "video-generation",
+    "automation-testing"
+  ],
+  "author": "Simbarashe Chitovhoro",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
+    "eslint": "^9.34.0",
+    "jest": "^30.0.5",
+    "playwright": "^1.54.1",
+    "ts-jest": "^29.4.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  }
+}
