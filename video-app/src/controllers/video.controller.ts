@@ -23,6 +23,7 @@ export class VideoController {
 
             return res.status(200).json(result);
         } catch (error) {
+            console.error(error);
             return res.status(500).json({
                 success: false,
                 error: "Internal server error"
