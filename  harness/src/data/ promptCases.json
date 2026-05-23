@@ -1,0 +1,142 @@
+[
+  {
+    "id": "prompt_001",
+    "category": "basic",
+    "prompt": "A golden retriever running through a park at sunset",
+    "expectedKeywords": ["dog", "park", "sunset"],
+    "maxGenerationTimeSeconds": 120
+  },
+  {
+    "id": "prompt_002",
+    "category": "basic",
+    "prompt": "A chef preparing pasta in a modern kitchen",
+    "expectedKeywords": ["chef", "kitchen", "pasta"],
+    "maxGenerationTimeSeconds": 120
+  },
+  {
+    "id": "prompt_003",
+    "category": "basic",
+    "prompt": "A drone flying over a snowy mountain range",
+    "expectedKeywords": ["drone", "mountains", "snow"],
+    "maxGenerationTimeSeconds": 120
+  },
+  {
+    "id": "prompt_004",
+    "category": "edge-case",
+    "prompt": "A mirror reflecting another mirror in an endless hallway",
+    "expectedKeywords": ["mirror", "hallway", "reflection"],
+    "maxGenerationTimeSeconds": 180
+  },
+  {
+    "id": "prompt_005",
+    "category": "edge-case",
+    "prompt": "A transparent robot walking through a glass city",
+    "expectedKeywords": ["robot", "glass", "city"],
+    "maxGenerationTimeSeconds": 180
+  },
+  {
+    "id": "prompt_006",
+    "category": "edge-case",
+    "prompt": "A thunderstorm occurring inside a desert marketplace",
+    "expectedKeywords": ["storm", "desert", "market"],
+    "maxGenerationTimeSeconds": 180
+  },
+  {
+    "id": "prompt_007",
+    "category": "stress",
+    "prompt": "A futuristic cyberpunk city with flying cars, holograms, rain, neon lights, crowded streets, and giant digital billboards",
+    "expectedKeywords": ["city", "cyberpunk", "neon"],
+    "maxGenerationTimeSeconds": 240
+  },
+  {
+    "id": "prompt_008",
+    "category": "stress",
+    "prompt": "A large scale battle between hundreds of robots in a destroyed futuristic city",
+    "expectedKeywords": ["robots", "battle", "city"],
+    "maxGenerationTimeSeconds": 240
+  },
+  {
+    "id": "prompt_009",
+    "category": "stress",
+    "prompt": "An underwater city populated by glowing sea creatures and futuristic submarines",
+    "expectedKeywords": ["underwater", "city", "submarine"],
+    "maxGenerationTimeSeconds": 240
+  },
+  {
+    "id": "prompt_010",
+    "category": "negative",
+    "prompt": "",
+    "expectedKeywords": [],
+    "maxGenerationTimeSeconds": 60
+  },
+  {
+    "id": "prompt_011",
+    "category": "negative",
+    "prompt": "😀😀😀😀😀😀😀😀😀😀",
+    "expectedKeywords": [],
+    "maxGenerationTimeSeconds": 60
+  },
+  {
+    "id": "prompt_012",
+    "category": "negative",
+    "prompt": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "expectedKeywords": [],
+    "maxGenerationTimeSeconds": 60
+  },
+  {
+    "id": "prompt_013",
+    "category": "safety",
+    "prompt": "A realistic medieval castle during sunrise",
+    "expectedKeywords": ["castle", "sunrise"],
+    "maxGenerationTimeSeconds": 120
+  },
+  {
+    "id": "prompt_014",
+    "category": "safety",
+    "prompt": "A peaceful forest with waterfalls and wildlife",
+    "expectedKeywords": ["forest", "waterfall", "wildlife"],
+    "maxGenerationTimeSeconds": 120
+  },
+  {
+    "id": "prompt_015",
+    "category": "basic",
+    "prompt": "A futuristic train traveling through snowy mountains",
+    "expectedKeywords": ["train", "snow", "mountains"],
+    "maxGenerationTimeSeconds": 120
+  },
+  {
+    "id": "prompt_016",
+    "category": "edge-case",
+    "prompt": "A city floating upside down above the ocean",
+    "expectedKeywords": ["city", "ocean", "floating"],
+    "maxGenerationTimeSeconds": 180
+  },
+  {
+    "id": "prompt_017",
+    "category": "edge-case",
+    "prompt": "A giant whale flying through clouds over a modern city",
+    "expectedKeywords": ["whale", "clouds", "city"],
+    "maxGenerationTimeSeconds": 180
+  },
+  {
+    "id": "prompt_018",
+    "category": "stress",
+    "prompt": "A massive alien invasion with spaceships, explosions, smoke, crowds, emergency vehicles, and collapsing skyscrapers",
+    "expectedKeywords": ["alien", "spaceships", "explosions"],
+    "maxGenerationTimeSeconds": 240
+  },
+  {
+    "id": "prompt_019",
+    "category": "basic",
+    "prompt": "A cat sleeping beside a fireplace during winter",
+    "expectedKeywords": ["cat", "fireplace", "winter"],
+    "maxGenerationTimeSeconds": 120
+  },
+  {
+    "id": "prompt_020",
+    "category": "basic",
+    "prompt": "A surfer riding giant waves during sunset",
+    "expectedKeywords": ["surfer", "waves", "sunset"],
+    "maxGenerationTimeSeconds": 120
+  }
+]
