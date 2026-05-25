@@ -4,7 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
+    "start": "node dist/server.js",
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --ext .ts,.tsx",
     "format": "eslint . --ext .ts,.tsx --fix",
@@ -26,6 +28,7 @@
     "jest": "^30.4.2",
     "prettier": "^3.8.3",
     "ts-jest": "^29.4.11",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.3"
   },
   "private": true
